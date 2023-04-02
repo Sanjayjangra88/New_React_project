@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -36,3 +36,101 @@
     transform: rotate(360deg);
   }
 }
+.js{
+  border: #282c34;
+}
+.container{
+  border: #61dafb;
+}
+
+body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+#footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+
+}
+@media (max-width: 767.98px) {
+  #footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+  
+  }
+  
+
+} */
+.App {
+  max-width: 480px; /* Adjust as necessary for your design */
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* .header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+} */
+
+.body {
+  padding: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.maxWidth {
+  max-width: 1200px;
+  margin: auto;
+}
+.maxWidthforpoiter {
+  max-width: 1050px;
+  margin: auto;
+}
+
+.small {
+  font-size: 1rem;
+}
+
+.medium {
+  font-size: 1.4rem;
+}
+
+.large {
+  font-size: 1.9rem;
+}
+
+.boldPointer {
+  font-size: 1.3rem;
+  font-family: 600;
+}
+
+@media only screen and (max-width: 600px) {
+  .small {
+    font-size: 0.9rem;
+  }
+
+  .medium {
+    font-size: 1.1rem;
+  }
+
+  .large {
+    font-size: 1.6rem;
+  }
+
+  .boldPointer {
+    font-size: 1rem;
+    font-family: 600;
+  }
+}
+
